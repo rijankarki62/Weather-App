@@ -1,0 +1,71 @@
+/* === Body Styling === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0ccef0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* === Weather App Container === */
+.weather-container {
+    background-color: #fdfdfd;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+/* === Heading === */
+.weather-container h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #2f2f2f;
+}
+
+/* === Input Styling === */
+input[type="text"] {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #4a90e2;
+}
+
+/* === Button Styling (smaller + centered) === */
+button {
+    padding: 10px 20px;
+    background-color: #0ccef0; /* darker shade of background */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto; /* center the button */
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #7c887c;
+}
+
+/* === Weather Info Display === */
+#weather-info {
+    margin-top: 25px;
+    font-size: 1.1rem;
+    color: #333;
+}
